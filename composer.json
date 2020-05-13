@@ -1,0 +1,17 @@
+{
+    "name": "kacper/websockets",
+    "authors": [
+        {
+            "name": "kacper",
+            "email": "kacpi102@wp.pl"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    }
+}
